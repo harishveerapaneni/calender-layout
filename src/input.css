@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.calender{
+    margin: 10% 40%;
+}
+.toper{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    padding: 2%;
+    align-items: center;
+}
+.midle {
+    border: 1px solid gainsboro;
+    margin-top: 1px;
+
+}
+.midle .mnthyear{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.midle ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    padding: 0px 20px;
+
+}
+.least ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.least ul li{
+    border: 1px solid gray;
+    display: flex;
+flex-direction: column;
+    align-self: center;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+}
