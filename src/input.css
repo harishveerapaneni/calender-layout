@@ -10,10 +10,13 @@
 }
 .toper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid gainsboro;
-    padding: 2%;
+    padding: 5% 10%;
     align-items: center;
+}
+.toper input{
+    font-size: large;
 }
 .midle {
     border: 1px solid gainsboro;
@@ -30,6 +33,10 @@
     justify-content: space-between;
     margin: 10px 0px;
     padding: 0px 20px;
+
+}
+.midle ul li{
+    list-style: none;
 
 }
 .least ul {
